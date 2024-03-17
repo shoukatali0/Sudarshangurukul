@@ -511,6 +511,13 @@ h6,
     #qlink{
         text-align: center;
     }
+    .footer .btn.btn-link::before {
+        position: relative;
+        content: none;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 10px;
+    }
 }
 
 
@@ -563,5 +570,14 @@ h6,
 
   #gal{
     margin-top: 100px;
+  }
+
+  /* last image effect */
+  #test1{
+    transition: transform .2s;
+  }  
+  
+  #test1:hover{
+    transform:scale(0.8);
   }
 

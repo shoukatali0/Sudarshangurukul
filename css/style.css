@@ -506,18 +506,20 @@ h6,
     .footer {
     text-align: center;
     }
-    #map{
-        height: 300px;
-        width: 400px;
-    }
     #links{
         justify-content: center;
         display: flex;
+    }
+    #map{
+        height: 200px;
+        width: 300px;
     }
     #qlink{
         text-align: center;
     }
 }
+
+
 
 /* image gallery */
 .photo-gallery {
